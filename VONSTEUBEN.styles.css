@@ -309,8 +309,9 @@ img{
 /* ---------- ADJUSTING RESPONSIVE IMAGE SIZE ---------- */
 /* --------------- BEGIN RESPONSIVE IMAGE ADJUST SIZES --------------- */
     img{
-        width: 300px;
         max-width: 300px;
+        height: auto;
+
     } 
 
     @media screen and (max-width: 42em) {
